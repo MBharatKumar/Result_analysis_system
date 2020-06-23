@@ -1,0 +1,131 @@
+#page-wrap {
+  text-align: center;
+
+  /* Prevent sidebar from showing a scrollbar on page */
+  overflow: auto;
+}
+
+/* Individual item */
+
+
+/* Change color on hover */
+.menu-item:hover {
+  color: white;
+}
+
+/* The rest copied directly from react-burger-menu docs */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+#sidenav {
+    position: fixed;
+}
+
+:focus {
+    margin:none;
+}
+
+ul{
+    
+    list-style: none;
+    border : none;
+}
+
+.menu-item {
+    color: #bdc3c7;
+}
+
+a {
+    text-decoration: none;
+}
+
+.resultHr {
+  width : 75%;
+  margin-top: 50px;
+  margin-left: 0px ;
+  margin-bottom: 50px;
+  box-shadow: 0 0 4px 1px rgba(56, 78, 81, 0.62);
+}
+
+.resultHr1 {
+  width : 75%;
+  margin-top: 100px;
+  margin-left: 0px ;
+  margin-bottom: 50px;
+  box-shadow: 0 0 4px 1px rgba(56, 78, 81, 0.62);
+}
+
+.resultpgHeading{
+  margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-weight: normal;
+	font-family: 'Ultra', sans-serif;   
+	font-size: 46px;
+	line-height: 42px;
+	text-transform: uppercase;
+  text-shadow: 0 2px white, 0 3px #777;
+  padding-bottom: 40px;
+  padding-left: 100px;
+}
+
+#linktoLinkedIn{
+  text-decoration: none;
+  size: 20px;
+ color: rgba(256,256,256,0.7);
+  ;
+}
+
+#linktoLinkedIn:hover{
+  color: rgb(256,256,256);
+}
+
+.section-content {
+  text-align: justify;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
